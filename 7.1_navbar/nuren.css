@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 80%;
+    height: 80px;
+    background: #dadada;
+    margin-inline: auto;
+}
+nav img{
+    width: 150px;
+}
+a{
+    list-style: ;
+}
+.links {
+    gap: 50px;
+}
+.links a {
+    text-decoration: none;
+}
+.tag{
+    border: 1px solid rgb(180, 162, 162);
+    padding: 9px 15px;
+}
