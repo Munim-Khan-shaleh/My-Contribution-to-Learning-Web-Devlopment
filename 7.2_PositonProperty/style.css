@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: yellow;
+    position: fixed;
+    z-index: 1;
+}
+
+/* container */
+.container{
+    width: 100%;
+    height: 80vh;
+    background-color: #c04f4f;
+    position: relative;
+    top: 80px;
+
+}
+.box{
+    width: 40%;
+    height: 90%;
+    background-color: rgb(65, 40, 10);
+    /* margin: 10px; */
+}
+.left{
+    position: relative;
+    left: 150px;
+    top: 38px;
+}
+.right{
+    position: absolute ;
+    top: 38px;
+    right: 150px;
+}
+.next{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(112, 101, 124, 0.781);
+    position: relative;
+    top: 80px;
+}
+.logo{
+    width: 84.2%;
+    height: 400px;
+    background-color: rebeccapurple;
+    position: relative;
+    left: 150px;
+    border-radius: 60px;
+}
+.stick{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(24, 124, 124);
+    position: fixed;
+    z-index: 1;
+    right: 0px;
+    bottom: 0px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #dadada;
+    position: relative;
+    top: 100px;
+}
